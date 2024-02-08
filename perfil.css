@@ -1,0 +1,76 @@
+body {
+    background-color: #fffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .quadrado {
+    width: 900px;
+    height: 600px; 
+    background-color: #4b0082; 
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+  }
+.imagem {
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px; 
+    height: auto;
+  }
+
+.nome-usuario {
+    margin-top: 24%;
+    margin-left: 8%;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.email-usuario {
+    margin-left: 8%;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.botao1 {
+    width: 20%;
+    padding: 10px;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 40%;
+    font-weight: bold;
+  }
+
+  .botao2 {
+    width: 20%;
+    padding: 10px;
+    background-color: #006400;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 40%;
+    font-weight: bold;
+  }
+  
+  .criar-conta{
+    color: white;
+    text-decoration: none;
+  }
+
+  .botao:hover {
+    background-color: #FFFF00;
+  }

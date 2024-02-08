@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagem {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px; 
+    height: auto;
+}
+
+.botao {
+    width: 10%;
+    padding: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .botao1 {
+    width: 10%;
+    padding: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 70%;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+.criar-tarefa{
+    color: white;
+    text-decoration: none;
+  }
+
+  .nome-usuario{
+    color: white;
+    text-decoration: none;
+  }
+
+.botao:hover {
+    background-color: #9370db;
+  }

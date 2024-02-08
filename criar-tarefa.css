@@ -1,0 +1,90 @@
+body {
+    background-color: #4b0082;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .buttons{
+      margin-top: 30px;
+  }
+  
+  .quadrado {
+    width: 900px;
+    height: 750px; 
+    background-color: #ffffff; 
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.imagem {
+    position: absolute;
+    top: 0%;
+    left: 51%;
+    transform: translateX(-50%);
+    width: 400px; 
+    height: auto;
+  }
+
+  .input-text1 { 
+    width: 80%; 
+    padding: 15px;
+    border: 1px solid #9370db;
+    background-color: #9370db;
+    color: #ffffff;
+    border-radius: 200px;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 320px;
+    font-size: bold;
+  }
+
+  .input-text2 { 
+    width: 80%; 
+    padding: 15px;
+    border: 1px solid #9370db;
+    background-color: #9370db;
+    color: #ffffff;
+    border-radius: 200px;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: bold;
+  }
+
+
+  .input-text1::placeholder {
+    color: #ffffff; 
+  }
+
+  .input-text2::placeholder {
+    color: #ffffff; 
+  }
+
+
+  .botao {
+    width: 20%;
+    padding: 10px;
+    background-color: #9370db;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 40%;
+    font-weight: bold;
+  }
+  
+  .criar-conta{
+    color: white;
+    text-decoration: none;
+  }
+
+  .botao:hover {
+    background-color: #4b0082;
+  }
