@@ -1,11 +1,12 @@
 body {
-    background-color: #fffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
+  background-color: #fffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
   .quadrado {
     width: 900px;
     height: 600px; 
@@ -74,3 +75,4 @@ body {
   .botao:hover {
     background-color: #FFFF00;
   }
+

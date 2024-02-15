@@ -86,3 +86,13 @@ body {
   .botao:hover {
     background-color: #4b0082;
   }
+
+  h1{
+    font-size: 90%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    margin-top: 27%;
+    margin-left: 40%;
+    color: #ffffff;
+  }
