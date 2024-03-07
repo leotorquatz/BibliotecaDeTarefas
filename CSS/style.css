@@ -20,6 +20,30 @@ body {
     flex-direction: column;
   }
 
+input{
+    width: 650px;
+    height: 40px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    position: relative;
+    left: 120px;
+    top: 300px;
+    background-color: #4b0082;
+}
+
+label{
+    position: relative;
+    left: 120px;
+    top: 300px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #4b0082;
+  }
+
 .imagem {
     position: absolute;
     top: 0%;
@@ -29,43 +53,7 @@ body {
     height: auto;
   }
 
-  .input-text1 { 
-    width: 80%; 
-    padding: 15px;
-    border: 1px solid #9370db;
-    background-color: #9370db;
-    color: #ffffff;
-    border-radius: 200px;
-    box-sizing: border-box;
-    margin-left: 10%;
-    margin-right: auto;
-    margin-top: 320px;
-  }
-
-  .input-text2 { 
-    width: 80%; 
-    padding: 15px;
-    border: 1px solid #9370db;
-    background-color: #9370db;
-    color: #ffffff;
-    border-radius: 200px;
-    box-sizing: border-box;
-    margin-left: 10%;
-    margin-right: auto;
-    margin-top: 40px;
-  }
-
-
-  .input-text1::placeholder {
-    color: #ffffff; 
-  }
-
-  .input-text2::placeholder {
-    color: #ffffff; 
-  }
-
-
-  .botao {
+  .button {
     width: 20%;
     padding: 10px;
     background-color: #9370db;
@@ -73,7 +61,7 @@ body {
     border-radius: 100px;
     color: #fff;
     cursor: pointer;
-    margin-top: 1%;
+    margin-top: 45%;
     margin-left: 40%;
     font-weight: bold;
   }
@@ -92,7 +80,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: bold;
-    margin-top: 27%;
+    margin-top: 29%;
     margin-left: 40%;
     color: #ffffff;
   }
