@@ -4,22 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/criar-tarefa.css">
+    <script src="./js/tarefas.js" defer></script>
     <title>Criar Tarefa</title>
 </head>
 
 <body>
     <div class="quadrado">
-        <img src="./FOTOS/logo.png" alt="LeoCa" class="imagem">
-        <input type="text" placeholder="TAREFA" class="input-text1">
-        <input type="password" placeholder="DATA LIMITE" class="input-text2">
-
-        <div class="buttons">
-            <button class="botao"><a href="pagina-inicial.html" class="criar-conta">CRIAR TAREFA</a></button>
-        </div>
+        <header>
+            <img src="./FOTOS/logo.png" alt="" class="logo-icon">
+        </header>
+        <main>
+            <div class="criar-tarefa">
+                <div class="login-box">
+                    <h1>ADICIONE SUA TAREFA</h1>
+                    <div class="tasks">
+                        <input class="input-task" placeholder="Crie sua Tarefa">
+                        <div class="adicionar">
+                            <button class="botao">CRIAR</button>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                <label class="tarefa-publica" for="flexSwitchCheckChecked">Tarefa Pública</label>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-tasks">
+                    </ul>
+                </div>
+            </div>
+        </main>
     </div>
-    </div>
-   
 
 </body>
 

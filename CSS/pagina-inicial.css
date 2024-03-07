@@ -55,3 +55,18 @@
     background-color: #9370db;
   }
 
+  .card{
+    width: 150px;
+    height: 150px;
+    background-color: #9370db;
+    border-radius: 15%;
+    margin-top: 15%;
+    margin-left: 45%;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+.texto{
+    margin-top: 50%;
+}

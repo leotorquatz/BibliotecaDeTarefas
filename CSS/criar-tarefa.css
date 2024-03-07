@@ -18,68 +18,40 @@ body {
     border-radius: 45px;
     display: flex;
     flex-direction: column;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
   }
 
-.imagem {
+.logo-icon {
     position: absolute;
     top: 0%;
-    left: 51%;
+    left: 50%;
     transform: translateX(-50%);
     width: 400px; 
     height: auto;
   }
 
-  .input-text1 { 
-    width: 80%; 
-    padding: 15px;
-    border: 1px solid #9370db;
-    background-color: #9370db;
-    color: #ffffff;
-    border-radius: 200px;
-    box-sizing: border-box;
-    margin-left: 10%;
-    margin-right: auto;
-    margin-top: 320px;
-    font-size: bold;
+  .input-task{
+    margin-left: 0%;
+    width: 42%;
+    padding: 2%;
   }
-
-  .input-text2 { 
-    width: 80%; 
-    padding: 15px;
-    border: 1px solid #9370db;
-    background-color: #9370db;
-    color: #ffffff;
-    border-radius: 200px;
-    box-sizing: border-box;
-    margin-left: 10%;
-    margin-right: auto;
-    margin-top: 40px;
-    font-size: bold;
-  }
-
-
-  .input-text1::placeholder {
-    color: #ffffff; 
-  }
-
-  .input-text2::placeholder {
-    color: #ffffff; 
-  }
-
 
   .botao {
-    width: 20%;
+    width: 40%;
     padding: 10px;
     background-color: #9370db;
     border: none;
     border-radius: 100px;
     color: #fff;
     cursor: pointer;
-    margin-top: 1%;
-    margin-left: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
     font-weight: bold;
   }
-  
+
   .criar-conta{
     color: white;
     text-decoration: none;
@@ -89,4 +61,7 @@ body {
     background-color: #4b0082;
   }
 
- 
+ .login-box{
+   margin-top: 30%;
+   margin-left: 30%;
+ }
